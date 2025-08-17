@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.avatar {
+  margin-bottom: 40px;
+  border: 5px solid;
+  border-image: linear-gradient(to right, #8a2be2, #00ffff, #ff1493) 1;
+  border-image-slice: 1;
+}
+
+.text-content {
+  margin-bottom: 40px;
+}
+
+.greeting {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.profession {
+  font-size: 2.5em;
+}
+
+.swirl {
+  width: 200px;
+  height: auto;
+  filter: invert(70%) sepia(100%) saturate(700%) hue-rotate(270deg)
+    brightness(100%) contrast(100%);
+}
